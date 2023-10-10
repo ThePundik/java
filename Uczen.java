@@ -61,5 +61,7 @@ public class Uczen{
 
         System.out.println("Dane ucznia 3:");
         uczen3.wyswietlDane();
+
+        
     }
 }
