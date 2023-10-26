@@ -21,6 +21,7 @@ public mojaKlasa(int liczba, char znak, String tekst){
         System.out.println("Wartość pola 'liczba': " + obiekt.liczba);
         System.out.println("Wartość pola 'znak': " + obiekt.znak);
         System.out.println("Wartość pola 'tekst': " + obiekt.tekst);
+        scanner.close();
     }
     public static void licz()
     {
