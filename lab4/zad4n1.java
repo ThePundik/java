@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class zad4n1 {
     public static void main (String args[]){
-        int Tablica[] = new int [100];
+        int Tablica[] = new int [99];
         Tablica1(Tablica);
     }
 
@@ -16,5 +16,5 @@ public class zad4n1 {
             System.out.println(Tablica[i]);
         }
     }
-    
+
 }
