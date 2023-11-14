@@ -93,7 +93,7 @@ public class Elipsa extends Figura {
 
     @Override
     protected String podajParametry() {
-        return super.podajParametry() + ", a: " + a + ", b: " + b + ", c: " + c;
+        return super.podajParametry() + " , a: " + a + " , b: " + b + " , c: " + c;
     }
-    
+
 }

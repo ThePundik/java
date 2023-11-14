@@ -32,7 +32,7 @@ public class Figura {
     }
 
     protected String podajParametry() {
-        return "Pole: " + pole + ", Obwód: " + obwod + ", Kolor: " + kolor.toString();
+        return "Pole: " + pole + " , Obwód: " + obwod + ", Kolor: " + kolor.toString();
     }
 
     // Gettery i Settery
@@ -59,5 +59,5 @@ public class Figura {
     public void setKolor(Color kolor) {
         this.kolor = kolor;
     }
-    
+
 }

@@ -59,8 +59,8 @@ public class Wielokat extends Figura {
 
     @Override
     protected String podajParametry() {
-        return super.podajParametry() + ", Liczba wierzchołków: " + liczbaWierzcholkow +
+        return super.podajParametry() + ", Liczba wierzchołkow: " + liczbaWierzcholkow +
                 ", Liczba boków: " + liczbaBokow + ", Suma kątów: " + sumaKatowWewnetrznych;
     }
-    
+
 }
