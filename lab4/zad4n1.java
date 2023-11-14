@@ -16,4 +16,5 @@ public class zad4n1 {
             System.out.println(Tablica[i]);
         }
     }
+    
 }
