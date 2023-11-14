@@ -1,22 +1,25 @@
+package lab5;
 import java.awt.Color;
-public class zad5n1 {
 
-    public class Figura {
-    // Pola
+public class Figura {
     protected int pole;
     protected int obwod;
     private Color kolor;
 
-    // Konstruktor
+    public Figura() {
+        // Konstruktor bezparametrowy
+        pole = 0;
+        obwod = 0;
+        kolor = Color.BLACK;
+    }
+
     public Figura(int pole, int obwod, Color kolor) {
         this.pole = pole;
         this.obwod = obwod;
         this.kolor = kolor;
     }
 
-    // Metody chronione (protected)
     protected void rysuj() {
-        // Implementacja rysowania figury
         System.out.println("Rysowanie figury...");
     }
 
@@ -32,28 +35,28 @@ public class zad5n1 {
         return "Pole: " + pole + ", Obwód: " + obwod + ", Kolor: " + kolor.toString();
     }
 
-    public int getPole(){
+    // Gettery i Settery
+    public int getPole() {
         return pole;
     }
-    
-    public void setPole(){
+
+    public void setPole(int pole) {
         this.pole = pole;
     }
 
-    public int getObwod(){
+    public int getObwód() {
         return obwod;
     }
 
-    public void setObwod(){
-        this.obwod = obwod;
+    public void setObwód(int obwód) {
+        this.obwod = obwód;
     }
 
-    public Color getKolor(){
+    public Color getKolor() {
         return kolor;
     }
 
-    public void setKolor(){
+    public void setKolor(Color kolor) {
         this.kolor = kolor;
     }
-}
 }
