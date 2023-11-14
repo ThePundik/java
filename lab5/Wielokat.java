@@ -62,4 +62,5 @@ public class Wielokat extends Figura {
         return super.podajParametry() + ", Liczba wierzchołków: " + liczbaWierzcholkow +
                 ", Liczba boków: " + liczbaBokow + ", Suma kątów: " + sumaKatowWewnetrznych;
     }
+    
 }

@@ -95,4 +95,5 @@ public class Elipsa extends Figura {
     protected String podajParametry() {
         return super.podajParametry() + ", a: " + a + ", b: " + b + ", c: " + c;
     }
+    
 }

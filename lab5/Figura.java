@@ -59,4 +59,5 @@ public class Figura {
     public void setKolor(Color kolor) {
         this.kolor = kolor;
     }
+    
 }
