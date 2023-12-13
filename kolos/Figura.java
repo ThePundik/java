@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+package kolos;
+>>>>>>> origin/main
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -55,6 +59,7 @@ class Trojkat extends Figura {
         // W przypadku trójkąta suma długości dwóch dowolnych boków musi być większa niż długość trzeciego
         return (bokA + bokB > bokC) && (bokA + bokC > bokB) && (bokB + bokC > bokA);
     }
+<<<<<<< HEAD
 }
 
 public class Main {
@@ -99,3 +104,6 @@ public class Main {
         System.out.println("Wszystkie figury zbudowane poprawnie!");
     }
 }
+=======
+}
+>>>>>>> origin/main
